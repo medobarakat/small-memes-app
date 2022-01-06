@@ -1,0 +1,39 @@
+.cardy {
+  background-color: yellow !important;
+  z-index: 5;
+  width: 18rem !important;
+  height: 18rem !important;
+  border: 2px solid rgb(114, 229, 233);
+  border-radius: 20px !important;
+  margin-bottom: 5rem;
+  padding: 20px;
+}
+.card-img img {
+  height: 200px;
+  width: 250px;
+  background-color: yellow !important;
+}
+.card-img h4 {
+  padding-top: 1rem;
+  background: yellow;
+}
+
+@media (max-width: 767.98px) {
+  .cardy {
+    display: block;
+    margin: auto;
+    margin: 1rem 0rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .cardy {
+    display: block;
+    margin: auto;
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  .card-img img {
+    height: 80px;
+    width: 120px;
+  }
+}

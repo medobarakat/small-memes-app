@@ -1,0 +1,28 @@
+* {
+  background-color: cornflowerblue;
+  color: black !important;
+}
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+h1 {
+  margin-bottom: 3rem;
+  padding: 0;
+}
+.app .ad-link {
+  color: black !important;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+  transition: all 0.4s;
+  margin-bottom: 2rem;
+}
+.app .ad-link:hover {
+  color: white;
+  background-color: ornflowerblue;
+}
