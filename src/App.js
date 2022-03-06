@@ -5,6 +5,7 @@ import Bravo from "./Pages/Bravo/Bravo";
 import Hug1 from "./Pages/Hug/Hug";
 import Hug2 from "./Pages/Hug2/Hug2";
 import Sorry from "./Pages/Sorry/Sorry";
+import Asfor from "./Pages/Asfor/Asfor";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             ارجع للرئيسيه
           </Link>
           <Routes>
+            <Route path="/asfor" element={<Asfor />} />
             <Route path="/hug" element={<Hug1 />} />
             <Route path="/hug2" element={<Hug2 />} />
             <Route path="/bravo" element={<Bravo />} />
