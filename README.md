@@ -1,5 +1,5 @@
 # small-memes-app
-this is a meme responsive Webpage made with ReactJs , React Router
+this is a meme responsive Webpage made with ReactJs and React Router
 
 ![screenshot](./public/screenshot.png)
 
